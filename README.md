@@ -1,2 +1,2 @@
 # Personal-Portfolio
-made using HTML,CSS,Bootstrap !
+made using HTML, CSS, Bootstrap !
