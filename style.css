@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-image {
+    height: 100px;
+    width: 100px;
+}
+
+#nav-list1:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#nav-list2:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#nav-list3:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#nav-list4:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#nav-list5:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#nav-list6:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#nav-list1 {
+    color: black;
+}
+
+#nav-list2 {
+    color: black;
+}
+
+#nav-list3 {
+    color: black;
+}
+
+#nav-list4 {
+    color: black;
+}
+
+#nav-list5 {
+    color: black;
+}
+
+#nav-list6 {
+    color: black;
+}
+
+#Intro {
+    margin-top: 10rem;
+
+}
+
+.Home-image {
+    margin-left: 3rem;
+}
+
+.Intro {
+    text-align: center;
+
+}
+
+.heading-3 {
+    color: orange;
+}
+
+.heading-1 {
+    color: #000000;
+}
+
+.Intro-desp {
+    text-align: left;
+    font-family: cursive;
+}
+
+.About-Me {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 10px 10px 5px grey;
+}
+
+#card-image {
+    height: 10rem;
+}
+
+.card-text {
+    font-family: Roboto;
+}
+
+#Help {
+    font-family: Monoton;
+    font-weight: bold;
+}
+
+.service-card {
+    margin-top: 2rem;
+}
+
+.service-card-1 {
+    font-family: Sans-Serif;
+    color: black;
+    border-radius: 50%;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.Technology {
+    margin-top: 10rem;
+
+}
+
+.Technology-skills {
+    text-align: center;
+}
+
+#skills {
+    font-family: Arial black;
+
+}
+
+.figma {
+    padding-top: 2rem;
+}
+
+#Work-Together {
+    border: 2px solid black;
+}
+
+#work-together {
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+
+#button {
+    margin: auto;
+
+}
+
+.button {
+    font-family: Bree;
+    color: black;
+    width: 150px;
+    height: 50px
+}
+
+.contact {
+    margin-top: 10rem;
+    background-color: black;
+    height: 100;
+    width: 100vw;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
+}
+
+.contact-heading {
+    color: orange;
+    font-family: cursive;
+    margin: 30px;
+    text-decoration: underline;
+}
+
+ul {
+    font-family: cursive;
+
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+marquee {
+    color: white;
+    font-family: Roboto;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
