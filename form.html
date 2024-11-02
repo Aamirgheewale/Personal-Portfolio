@@ -19,7 +19,7 @@
         </div>    
         <div class="bg-container">
             <div class="form">
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form id="contactform" action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="8494033d-78d4-419f-a510-f3ac2878c261">
                     <div>
                         <input type="text" name="name" class="input-content" placeholder="Name" required>
@@ -39,11 +39,17 @@
                     <div>
                         <button type="submit">Submit</button>    
                     </div>
-                    <input type="hidden" name="redirect" value="https://aamirgheewale.github.io/Personal-Portfolio/">    
+                    <!--<input type="hidden" name="redirect" value="https://aamirgheewale.github.io/Personal-Portfolio/">-->    
                 </form>
             </div>
         </div>
-    </div>    
+    </div>
+    <script>
+        window.onload = function() {
+            // Reset the form fields when the page loads
+            document.getElementById("contactform").reset();
+        };
+    </script>    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
