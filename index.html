@@ -199,10 +199,35 @@
         <div class="d-flex flex-row justify-content-center">
             <div class="row mt-3">
                 <div class="col-6 col-md-6" id="button">
-                    <button class="button btn btn-outline-warning">Contact Here</button>
-                </div>
-                <div class="col-6 col-md-6" id="button">
-                    <button class="button btn btn-outline-warning">Know More</button>
+                    <button type="button" class="button btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal">Contact Here</button>
+                    <!-- Button trigger modal -->
+                    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Launch demo modal
+                    </button>-->
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel" style="color: red; font-weight: bold;">Attention!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Fill the form and provide valid details.<br>
+                                    before submitting the form check the details you entered,<br>
+                                    <span class="attention" style="color: orange; font-family: sans-serif;">you will recieve reply via Email within 24 hours.</span>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="button btn btn-outline-warning" data-dismiss="modal">Proceed</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -273,7 +298,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="Projects-carousel">
-                    <h2>Completed-<span style="color: orange; font-family: fantasy;">Projects</span></h2>
+                    <h2><span style="color: orange; font-family: fantasy;">Projects</span>-Completed</h2>
                 </div>
             </div>
             <div class="col-12">
