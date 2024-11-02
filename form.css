@@ -64,6 +64,9 @@ input[type="number"]:focus,
 textarea:focus {
     border-bottom: 2px solid orange;
 }*/
+.input-content::placeholder{
+    color: #FFDBBB;
+}
 
 button {
     width: 100%;
