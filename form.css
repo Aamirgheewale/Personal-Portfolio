@@ -6,10 +6,10 @@
 }
 
 body {
-    background-image: url("https://res.cloudinary.com/djcen2oxj/image/upload/v1730549476/room_qlorzv.webp");
+    background-image: linear-gradient(rgb(0 , 0, 0, 0.5), rgb(0 , 0, 0, 0.5)), url("https://res.cloudinary.com/djcen2oxj/image/upload/v1730549476/room_qlorzv.webp");
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 
@@ -17,8 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start; 
-    height: 100%;
     padding-top: 10px;
+    
 }
 
 .heading {
@@ -31,7 +31,7 @@ body {
 }
 
 .form {
-    width: 50%;
+    width: 60%;
     /*border: 2px solid black;*/
     padding: 20px;
     /*background-color: rgba(255, 255, 255, 0.8);*/
