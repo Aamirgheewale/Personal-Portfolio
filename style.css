@@ -63,9 +63,18 @@
     margin-top: 10rem;
 
 }
-
+.Portfolio-Profile{
+    text-align: center;
+    margin-top: 3rem;
+    border: 2px solid orange;
+    
+}
 .Home-image {
     margin-left: 3rem;
+    
+}
+.Home-image img{
+    border-radius: 16px;
 }
 
 .Intro {
